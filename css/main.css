@@ -175,6 +175,9 @@ footer{
 .faqContent a:hover{
 	text-decoration: underline;
 }
+#download{
+	margin-right:5px;
+}
 
 
 
