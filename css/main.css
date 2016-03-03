@@ -1,0 +1,186 @@
+/*Button File styler
+Author: Mart Lloyd Mativo
+Version: 1.0.0
+Build Date: Feb 29, 2016*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+header{
+}
+.NP{
+	padding: 0px;
+}
+.bfs{
+	cursor: pointer;
+	z-index: 1;
+}
+.bfs-input{
+	display: none;
+}
+.ButtonHolder{
+	display: inline-block;
+}
+.navbar-brand{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.navbar{
+	border-radius: 0px;
+	background: #00BCD4;
+}
+.navbar-default .navbar-nav>li>a{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	background-color: #80DEEA;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: 0px;
+}
+.homepage{
+	background: #B2EBF2;
+	position: relative;
+}
+.navbar{
+	margin-bottom: 0px;
+	border: 0px;
+}
+.logo-center{
+	padding: 60px 0px;
+	color: #006064;
+	font-family: 'Montserrat', sans-serif;
+}
+#download i,#github i{
+	margin-right: 2px;
+}
+.logo-center h2{
+	font-size: 3em;
+}
+.logo-center h3{
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.logo-center h2,.logo-center h3{
+	line-height: 15px;
+}
+.logo-center h5{
+	line-height: 12px;
+}
+.demo{
+	padding-top: 40px;
+	min-height: 400px;
+	background-color: #00BCD4;
+	padding-bottom: 60px;
+}
+.DemoArea h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.DemoArea h2 i{
+	margin-right: 5px;
+}
+.DemoCode{
+	font-family: 'Montserrat', sans-serif;
+}
+pre{
+	margin-top: 5px;
+	text-align: left;
+	width: auto;
+}
+pre.prettyprint{
+	padding: 10px !important;
+}
+
+.Setup{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.dem{
+	margin-bottom: 5px;
+}
+footer{
+	min-height: 80px;
+	background-color: #00BCD4;
+}
+.howto{
+	padding-top: 40px;
+	min-height: 400px;
+	background-color: #00838F;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 60px;
+}
+.howtoArea h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.howtoArea h2 i{
+	margin-right: 5px;
+}
+.documentation{
+	padding-top: 40px;
+	min-height: 400px;
+	background-color: #00BCD4;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 60px;
+}
+.docArea h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.docArea h2 i{
+	margin-right: 5px;
+}
+.docsContent table thead td{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+.docsContent table tbody td{
+	border-bottom: 1px solid #fff;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	min-height: 80px;
+	padding: 15px 0px;
+}
+.faq{
+	padding-top: 40px;
+	min-height: 300px;
+	background-color: #00838F;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 60px;
+}
+.faqArea h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.faqArea h2 i{
+	margin-right: 5px;
+}
+.faqContent h6{
+	padding-left: 10px;
+}
+.faqContent a{
+	color: #fff;
+	text-decoration: none;
+}
+.faqContent a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
