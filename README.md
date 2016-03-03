@@ -10,4 +10,6 @@
 <p>If any problem on plugin or any suggestions, just write on <code>isuue</code> please give clear details.</p>
 -
 ### Documentation
+##### http://mmativ.github.io/Button-to-input-file/
 -
+
