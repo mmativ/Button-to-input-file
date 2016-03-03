@@ -1,0 +1,325 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Button To Input File</title>
+        <meta name="description" content="Button To Input File">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header class="container-fluid NP">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <i class="fa fa-upload"></i>
+                Button to Input File
+              </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="https://github.com/mmativ/Button-to-input-file/archive/master.zip">Download</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#howto">How to</a></li>
+                <li><a href="#docs">Reference</a></li>
+                <li><a href="#faq">Faq</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <section class="homepage" id="homePage">
+        <div class="container text-center logo-center">
+            <i class="fa fa-upload fa-5x"></i>
+            <h2>Bootstrap</h2>
+            <h3>Button To Input File</h3>
+            <h5>Jquery Plugin</h5>
+            <h5>V.1.0.0</h5>
+            <button type="button" class="btn btn-default" id="download"><i class="fa fa-download"></i>Download</button>
+            <a href="https://github.com/mmativ/Button-to-input-file" id="github"><i class="fa fa-github-alt"></i>GitHub</a>
+        </div>
+        
+    </section>
+    <section class="demo" id="demo">
+        <div class="container text-left DemoArea">
+            <h2><i class="fa fa-code"></i>Demo</h2>
+        </div>
+        <div class="container DemoCode">
+            <h3 class="Setup"><i class="fa fa-cog" style="margin-right:5px;"></i>Setup</h3>
+            <h5>Add Class:</h5>
+            <pre class="prettyprint">"bfs"</pre>
+            <h5>Example:</h5>
+            <button class="bfs btn btn-default dem">Choose File</button>
+            <button class="bfs btn btn-primary dem">Choose File</button>
+            <button class="bfs btn btn-success dem">Choose File</button>
+            <button class="bfs btn btn-info dem">Choose File</button>
+            <button class="bfs btn btn-warning dem">Choose File</button>
+            <button class="bfs btn btn-danger dem">Choose File</button>
+
+            <pre class="prettyprint">&lt;button class="bfs btn btn-default" &gt;Choose File&lt;/button&gt;</pre>
+            <pre class="prettyprint">&lt;button class="bfs btn btn-primary" &gt;Choose File&lt;/button&gt;</pre>
+            <pre class="prettyprint">&lt;button class="bfs btn btn-success" &gt;Choose File&lt;/button&gt;</pre>
+            <pre class="prettyprint">&lt;button class="bfs btn btn-info" &gt;Choose File&lt;/button&gt;</pre>
+            <pre class="prettyprint">&lt;button class="bfs btn btn-warning" &gt;Choose File&lt;/button&gt;</pre>
+            <pre class="prettyprint">&lt;button class="bfs btn btn-danger" &gt;Choose File&lt;/button&gt;</pre>
+            <hr>
+            <h3 class="Setup"><i class="fa fa-paint-brush" style="margin-right:5px;"></i>Style [Right]</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-style="fileStyle-r"</pre>
+            <h5>Example:</h5>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" class="bfs btn btn-success" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div>
+                
+            </div>
+                    
+            <pre class="prettyprint">&lt;button type="button" class="bfs btn btn-success" data-style="fileStyle-r"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+        
+        <hr>
+        <h3 class="Setup"><i class="fa fa-paint-brush" style="margin-right:5px;"></i>Style [Left]</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-style="fileStyle-l"</pre>
+            <h5>Example:</h5>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" class="bfs btn btn-success" data-style="fileStyle-l">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div>
+                
+            </div>
+                    
+            <pre class="prettyprint">&lt;button type="button" class="bfs btn btn-success" data-style="fileStyle-l"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+        <hr>
+        <h3 class="Setup"><i class="fa fa-code" style="margin-right:5px;"></i>Add ID to Input File</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-id="Your-ID"</pre>
+            <h5>Example:</h5>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" data-id="Your-ID" class="bfs btn btn-success" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div>
+                
+            </div>
+                    
+            <pre class="prettyprint">&lt;button type="button" data-id="Your-ID" class="bfs btn btn-success" data-style="fileStyle-r"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+        <hr>
+        <h3 class="Setup"><i class="fa fa-pencil-square-o" style="margin-right:5px;"></i>Add Placeholder</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-placeholder="placeholder"</pre>
+            <h5>Example:</h5>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" data-id="Your-ID" data-placeholder="placeholder" class="bfs btn btn-success" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div>
+                
+            </div>
+            <pre class="prettyprint">&lt;button type="button" data-id="Your-ID" data-placeholder="placeholder" class="bfs btn btn-success" data-style="fileStyle-r"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+        <hr>
+        <h3 class="Setup"><i class="fa fa-wrench" style="margin-right:5px;"></i>Size</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-size="sm"</pre>
+            <pre class="prettyprint">data-size="lg"</pre>
+            <h5>Example:</h5>
+            <div class="container NP dem">
+                <div class="col-lg-6 NP">
+                    <button type="button" data-id="Your-ID" data-placeholder="placeholder" data-size="sm" class="bfs btn btn-success" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div> 
+            </div>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" data-id="Your-ID" data-placeholder="placeholder" data-size="lg" class="bfs btn btn-success" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div> 
+            </div>
+            <pre class="prettyprint">&lt;button type="button" data-id="Your-ID"  data-placeholder="placeholder" class="bfs btn btn-success" data-size="sm" data-style="fileStyle-r"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+        <hr>
+        <h3 class="Setup"><i class="fa fa-pencil-square-o" style="margin-right:5px;"></i>Enable Input Text</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-enabled="true"</pre>
+            <pre class="prettyprint">data-enabled="false"</pre>
+            <h5>Example:</h5>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" data-id="Your-ID" data-placeholder="placeholder" data-size="sm" class="bfs btn btn-success" data-enabled="true" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div> 
+            </div>
+            <pre class="prettyprint">&lt;button type="button" data-id="Your-ID"  data-placeholder="placeholder" class="bfs btn btn-success" data-size="sm" data-enabled="true" data-style="fileStyle-r"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+        <hr>
+        <h3 class="Setup"><i class="fa fa-pencil-square-o" style="margin-right:5px;"></i>Add Class to Input text</h3>
+            <h5>Add data-Attributes:</h5>
+            <pre class="prettyprint">data-textclass="textclass"</pre>
+            <h5>Example:</h5>
+            <div class="container NP">
+                <div class="col-lg-6 NP">
+                    <button type="button" data-id="Your-ID" data-placeholder="placeholder" data-textclass="textclass" data-size="sm" class="bfs btn btn-success" data-style="fileStyle-r">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                        Choose File
+                    </button>
+                </div> 
+            </div>
+            <pre class="prettyprint">&lt;button type="button" data-id="Your-ID"  data-placeholder="placeholder" class="bfs btn btn-success" data-size="sm" data-textclass="textclass" data-style="fileStyle-r"&gt;&lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+Choose File&lt;/button&gt;
+            </pre>
+
+        </div>
+
+        
+    </section>
+    <section class="howto" id="howto">
+        <div class="container text-left howtoArea">
+            <h2><i class="fa fa-lightbulb-o"></i>How To Use</h2>
+        </div>
+        <div class="container howtoContent">
+            <h4><i class="fa fa-file-code-o" style="margin-right:5px;"></i>Load jQuery and include Button To Input File plugin files. </h4>
+            <pre class="prettyprint">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
+<div class="myBox">
+&lt;script src="js/bootstrap-button-to-input-file.min.js"&gt;&lt;/script&gt;</pre>
+<hr>
+            <h4><i class="fa fa-file-code-o" style="margin-right:5px;"></i>Make a button and put a class.</h4>
+            <pre class="prettyprint">&lt;button class="bfs btn btn-default" &gt;Choose File&lt;/button&gt;</pre>
+            <hr>
+            <h4><i class="fa fa-file-code-o" style="margin-right:5px;"></i>Call the plugin.</h4>
+            <pre class="prettyprint">&lt;script type="text/javascript"&gt;
+    var filestyler = new buttonFileStyler();
+&lt;/script&gt;</pre>
+            <hr>
+            <h4><i class="fa fa-file-code-o" style="margin-right:5px;"></i>Add the css code.</h4>
+            <pre class="prettyprint">.bfs{cursor: pointer;z-index: 1;}
+.bfs-input{display: none;}
+.ButtonHolder{display: inline-block;}</pre>
+        </div>
+    </section>
+    <section class="documentation" id="docs">
+        <div class="container text-left docArea">
+            <h2><i class="fa fa-book"></i>Reference</h2>
+        </div>
+        <div class="container docsContent">
+            <table width="100%">
+                <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="50%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td>Data Attributes</td>
+                        <td>Option</td>
+                        <td>Description</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>data-style=""</td>
+                        <td>'fileStyle-r','fileStyle-l'</td>
+                        <td>This data attributes enable the text area that you can see the input value.</td>
+                    </tr>
+                    <tr>
+                        <td>data-id=""</td>
+                        <td></td>
+                        <td>You can set "ID" to your input file using this data attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>data-placeholder=""</td>
+                        <td></td>
+                        <td>This data attribute allow you to put placeholder on your text area.</td>
+                    </tr>
+                    <tr>
+                        <td>data-size=""</td>
+                        <td>'sm','lg'</td>
+                        <td>This data attribute allow you to change the size of your button.</td>
+                    </tr>
+                    <tr>
+                        <td>data-enabled=""</td>
+                        <td>'ture','false'</td>
+                        <td>This data attribute allow you to enabled or disabled you input text. Default is false.</td>
+                    </tr>
+                    <tr>
+                        <td>data-textclass=""</td>
+                        <td></td>
+                        <td>This data attribute allow you to add class on your text input. Default is 'bfs-text'.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="container text-left faqArea">
+            <h2><i class="fa fa-book"></i>FAQ</h2>
+        </div>
+        <div class="container faqContent">
+            <h5>Can i use it for free?</h5>
+            <h6>Yes.</h6>
+            <h5>Has it any licence</h5>
+            <h6>MIT</h6>
+            <h5>Can i suggest for a new functionality?</h5>
+            <h6>Yes. Use <a href="">Github</a></h6>
+            <h5>I need help!</h5>
+            <h6>Send me message on <a href="https://www.facebook.com/m.mativ">Facebook</a> or tag me on <a href="http://stackoverflow.com/users/5321188/mmativ">Stackoverflow</a> and add comment on <a href="https://github.com/mmativ/Bootstrap-button-to-inputfile/issues">Github</a>.</h6>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+
+        
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/bootstrap-button-to-input-file.min.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+        <script type="text/javascript">
+        var filestyler = new buttontoinputFile();
+        </script>
+
+    </body>
+</html>
